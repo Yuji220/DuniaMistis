@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pengenalan Energi Terbarukan - Menjaga Kehidupan di Bumi</title>
+  <meta name="description" content="Website edukasi singkat tentang pentingnya energi terbarukan untuk menjaga kehidupan di bumi." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+        <div class="brand">
+          <div class="logo" aria-hidden="true">
+            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Background circle -->
+              <circle cx="28" cy="28" r="26" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="2"/>
+              <!-- Solar panels -->
+              <g transform="translate(8, 12)">
+                <!-- Panel base -->
+                <rect x="0" y="8" width="16" height="2" rx="1" fill="#374151"/>
+                <!-- Solar cells -->
+                <rect x="1" y="9" width="3" height="0.5" fill="#10b981"/>
+                <rect x="5" y="9" width="3" height="0.5" fill="#059669"/>
+                <rect x="9" y="9" width="3" height="0.5" fill="#047857"/>
+                <rect x="13" y="9" width="2" height="0.5" fill="#065f46"/>
+              </g>
+              <!-- Wind turbine -->
+              <g transform="translate(32, 8)">
+                <!-- Tower -->
+                <rect x="3" y="12" width="2" height="16" fill="#6b7280"/>
+                <!-- Blades -->
+                <g stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round">
+                  <line x1="4" y1="12" x2="1" y2="8"/>
+                  <line x1="4" y1="12" x2="7" y2="8"/>
+                  <line x1="4" y1="12" x2="4" y2="6"/>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <div style="font-weight:800">Renew the World: A New Era of Sustainable Power</div>
+            <div style="font-size:12px;color:var(--muted)">Menjaga Kehidupan di Bumi</div>
+          </div>
+        </div>
+      <nav aria-label="Navigasi utama">
+        <a href="#tentang">Tentang</a>
+        <a href="#jenis">Jenis</a>
+        <a href="#manfaat">Manfaat</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#kalkulator">Kalkulator</a>
+        <a href="#kontak">Kontak</a>
+        <div class="search-container">
+          <input type="text" id="searchInput" placeholder="Cari..." class="search-input">
+          <button id="searchBtn" class="search-btn">🔍</button>
+        </div>
+        <button id="darkModeToggle" class="dark-mode-btn" aria-label="Toggle dark mode">
+          <span class="sun-icon">☀️</span>
+          <span class="moon-icon">🌙</span>
+        </button>
+      </nav>
+    </header>
+
+    <section class="hero homepage">
+      <div class="hero-content">
+        <span class="badge">Edukasi · Gratis</span>
+        <h1>Pengenalan Energi Terbarukan</h1>
+        <p>Mengapa kita perlu beralih dari bahan bakar fosil ke energi terbarukan? Di halaman ini kamu akan belajar tentang jenis, manfaat, dan tindakan sederhana untuk mendukung transisi energi demi masa depan yang lebih aman bagi bumi.</p>
+        <a class="cta" href="#jenis">Pelajari Jenis Energi</a>
+      </div>
+
+      <aside class="card center stats-card" aria-label="Ringkasan cepat">
+        <h2 style="margin:8px 0">Statistik Singkat</h2>
+        <p style="font-size:28px;font-weight:800;margin:6px 0">+1,000</p>
+        <p class="muted" style="margin-top:0">Jumlah studi & inisiatif yang menunjukkan manfaat langsung pengurangan emisi.</p>
+        <div style="margin-top:12px">
+          <div style="font-size:12px;color:var(--muted)">Bagikan</div>
+          <div style="margin-top:8px">
+            <a class="link" href="#">Twitter</a> · <a class="link" href="#">Facebook</a>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="jenis" class="card" style="margin-top:18px">
+      <h2>Jenis Energi Terbarukan</h2>
+      <p class="muted">Berikut adalah jenis yang paling umum dan contoh penerapannya.</p>
+
+      <div class="types">
+        <div class="type" tabindex="0">
+          <img src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=200&h=150&fit=crop" alt="Panel Surya" class="energy-image">
+          <div>
+            <h3>Energi Matahari</h3>
+            <div class="muted">Energi matahari adalah energi terbarukan yang berasal dari sinar matahari. Panel surya (solar panel) menangkap cahaya matahari dan mengubahnya menjadi energi listrik melalui proses fotovoltaik. Cocok untuk rumah tangga, bangunan komersial, dan pembangkit listrik skala besar. Keunggulan: bersih, tidak menghasilkan emisi, dan tersedia di mana saja selama ada sinar matahari.</div>
+          </div>
+        </div>
+        <div class="type" tabindex="0">
+          <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=200&h=150&fit=crop" alt="Kincir Angin" class="energy-image">
+          <div>
+            <h3>Energi Angin</h3>
+            <div class="muted">Energi angin adalah energi terbarukan yang berasal dari gerakan angin. Kincir angin (wind turbine) menangkap energi kinetik angin dan mengubahnya menjadi energi listrik melalui generator. Cocok untuk daerah berangin seperti dataran tinggi, pesisir, dan laut lepas. Keunggulan: tidak menghasilkan emisi, biaya operasional rendah setelah instalasi, dan dapat dipasang di berbagai skala.</div>
+          </div>
+        </div>
+        <div class="type" tabindex="0">
+          <img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=200&h=150&fit=crop" alt="Energi Air" class="energy-image">
+          <div>
+            <h3>Energi Air</h3>
+            <div class="muted">Energi air adalah energi terbarukan yang berasal dari aliran air, gelombang laut, dan pasang surut. Pembangkit Listrik Tenaga Air (PLTA) menggunakan turbin yang diputar oleh aliran air untuk menghasilkan listrik. Cocok untuk daerah dengan sungai besar, bendungan, atau pesisir laut. Keunggulan: tidak menghasilkan emisi, biaya operasional rendah setelah pembangunan, dan dapat menyimpan energi melalui waduk. Jenis utama: PLTA konvensional, PLTA mini/micro, dan pembangkit pasang surut.</div>
+          </div>
+        </div>
+        <div class="type" tabindex="0">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=150&fit=crop" alt="Biomassa dan Biogas" class="energy-image">
+          <div>
+            <h3>Biomassa & Biogas</h3>
+            <div class="muted">Biomassa adalah energi dari bahan organik seperti kayu, tanaman, dan limbah pertanian yang dibakar untuk menghasilkan panas atau listrik. Biogas dihasilkan dari fermentasi anaerobik limbah organik oleh bakteri, menghasilkan gas metana yang dapat digunakan sebagai bahan bakar. Cocok untuk daerah pertanian dan pengolahan limbah. Keunggulan: mengurangi limbah, dapat digunakan sebagai bahan bakar transportasi, dan berkontribusi pada pengelolaan sampah.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="manfaat" class="card" style="margin-top:18px">
+      <h2>Manfaat Energi Terbarukan</h2>
+      <ul>
+        <li>Mengurangi emisi karbon dan memperlambat perubahan iklim.</li>
+        <li>Meningkatkan kualitas udara (mengurangi polusi dari pembakaran bahan bakar fosil).</li>
+        <li>Diversifikasi sumber energi dan keamanan energi nasional.</li>
+        <li>Menciptakan lapangan kerja hijau di sektor baru.</li>
+      </ul>
+
+      <div style="margin-top:12px">
+        <h3>Cara sederhana yang bisa kamu lakukan</h3>
+        <ol>
+          <li>Matikan lampu dan peralatan listrik saat tidak dipakai.</li>
+          <li>Pilih transportasi ramah lingkungan: bersepeda, berjalan kaki, atau transportasi umum.</li>
+          <li>Dukung produk dan kebijakan yang ramah lingkungan.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="quiz" class="card quiz">
+      <h2>Quiz Singkat tentang Energi</h2>
+      <p class="muted">Tes pengetahuanmu tentang energi — pilih jawaban untuk setiap pertanyaan, lalu klik "Cek Semua".</p>
+
+      <div style="margin-top:12px">
+        <div style="font-weight:700">1. Mana yang bukan termasuk energi terbarukan?</div>
+        <label><input type="radio" name="q1" value="a"> Matahari</label><br>
+        <label><input type="radio" name="q1" value="b"> Batu bara</label><br>
+        <label><input type="radio" name="q1" value="c"> Angin</label><br>
+      </div>
+
+      <div style="margin-top:12px">
+        <div style="font-weight:700">2. Energi apa yang berasal dari matahari?</div>
+        <label><input type="radio" name="q2" value="a"> Energi Angin</label><br>
+        <label><input type="radio" name="q2" value="b"> Energi Surya</label><br>
+        <label><input type="radio" name="q2" value="c"> Energi Air</label><br>
+      </div>
+
+      <div style="margin-top:12px">
+        <div style="font-weight:700">3. Manfaat utama energi terbarukan adalah?</div>
+        <label><input type="radio" name="q3" value="a"> Mengurangi emisi karbon</label><br>
+        <label><input type="radio" name="q3" value="b"> Meningkatkan polusi</label><br>
+        <label><input type="radio" name="q3" value="c"> Menghabiskan sumber daya</label><br>
+      </div>
+
+      <div style="margin-top:12px">
+        <button id="checkBtn">Cek Semua Jawaban</button>
+        <div style="margin-top:8px">Skor: <span id="score">0/3</span> <span id="quizStatus" class="badge">Belum Dimulai</span></div>
+        <div id="result" style="margin-top:10px;font-weight:700"></div>
+      </div>
+    </section>
+
+    <section id="testimoni" class="card" style="margin-top:18px">
+      <h2>Testimoni</h2>
+      <p class="muted">Apa kata mereka yang telah beralih ke energi terbarukan.</p>
+
+      <div class="testimonials">
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>"Setelah menginstall panel surya di rumah saya, tagihan listrik berkurang drastis. Selain hemat, saya juga merasa lebih bertanggung jawab terhadap lingkungan."</p>
+          </div>
+          <div class="testimonial-author">
+            <strong>Ahmad S.</strong><br>
+            <span class="muted">Jakarta</span>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>"Sebagai petani, saya sangat terbantu dengan biogas dari limbah ternak. Tidak hanya mengurangi polusi, tapi juga memberikan energi tambahan untuk rumah tangga."</p>
+          </div>
+          <div class="testimonial-author">
+            <strong>Siti R.</strong><br>
+            <span class="muted">Yogyakarta</span>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>"Energi angin di daerah pesisir kami memberikan lapangan kerja baru dan mengurangi ketergantungan pada bahan bakar fosil yang mahal."</p>
+          </div>
+          <div class="testimonial-author">
+            <strong>Budi P.</strong><br>
+            <span class="muted">Bali</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kalkulator" class="card" style="margin-top:18px">
+      <h2>Kalkulator Energi Terbarukan</h2>
+      <p class="muted">Hitung potensi penghematan dan manfaat dari instalasi panel surya di rumah Anda.</p>
+
+      <div class="calculator-container">
+        <div class="calculator-inputs">
+          <h3>Informasi Rumah Tangga</h3>
+
+          <div class="input-group">
+            <label for="monthlyBill">Tagihan Listrik Bulanan (Rp)</label>
+            <input type="number" id="monthlyBill" placeholder="500000" min="0">
+          </div>
+
+          <div class="input-group">
+            <label for="roofArea">Luas Atap yang Tersedia (m²)</label>
+            <input type="number" id="roofArea" placeholder="50" min="0">
+          </div>
+
+          <div class="input-group">
+            <label for="location">Lokasi (Provinsi)</label>
+            <select id="location">
+              <option value="jakarta">Jakarta</option>
+              <option value="surabaya">Surabaya</option>
+              <option value="bandung">Bandung</option>
+              <option value="medan">Medan</option>
+              <option value="semarang">Semarang</option>
+              <option value="makassar">Makassar</option>
+              <option value="palembang">Palembang</option>
+              <option value="other">Lainnya</option>
+            </select>
+          </div>
+
+          <button id="calculateBtn" class="cta" style="width:100%;margin-top:20px">Hitung Potensi</button>
+        </div>
+
+        <div class="calculator-results" id="results" style="display:none">
+          <h3>Hasil Perhitungan</h3>
+
+          <div class="result-item">
+            <div class="result-label">Potensi Penghematan Bulanan</div>
+            <div class="result-value" id="monthlySavings">Rp 0</div>
+          </div>
+
+          <div class="result-item">
+            <div class="result-label">Investasi Awal</div>
+            <div class="result-value" id="initialInvestment">Rp 0</div>
+          </div>
+
+          <div class="result-item">
+            <div class="result-label">Payback Period</div>
+            <div class="result-value" id="paybackPeriod">0 tahun</div>
+          </div>
+
+          <div class="result-item">
+            <div class="result-label">Pengurangan Emisi CO2</div>
+            <div class="result-value" id="co2Reduction">0 kg/tahun</div>
+          </div>
+
+          <div class="result-note">
+            <small>*Perhitungan ini bersifat estimasi. Untuk hasil yang lebih akurat, konsultasikan dengan ahli instalasi panel surya.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="card contact-form" style="margin-top:18px">
+      <h2>Hubungi Kami</h2>
+      <p class="muted">Ada pertanyaan tentang energi terbarukan? Kirim pesan kepada kami!</p>
+
+      <form id="contactForm">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px">
+          <div>
+            <label for="name" style="display:block;margin-bottom:4px;font-weight:600">Nama</label>
+            <input type="text" id="name" name="name" required style="width:100%;padding:10px;border:1px solid rgba(15,118,110,0.2);border-radius:8px;font-size:14px">
+          </div>
+          <div>
+            <label for="email" style="display:block;margin-bottom:4px;font-weight:600">Email</label>
+            <input type="email" id="email" name="email" required style="width:100%;padding:10px;border:1px solid rgba(15,118,110,0.2);border-radius:8px;font-size:14px">
+          </div>
+        </div>
+        <div style="margin-bottom:16px">
+          <label for="subject" style="display:block;margin-bottom:4px;font-weight:600">Subjek</label>
+          <select id="subject" name="subject" required style="width:100%;padding:10px;border:1px solid rgba(15,118,110,0.2);border-radius:8px;font-size:14px">
+            <option value="">Pilih subjek</option>
+            <option value="general">Pertanyaan Umum</option>
+            <option value="installation">Instalasi Panel Surya</option>
+            <option value="calculator">Kalkulator Energi</option>
+            <option value="partnership">Kemitraan</option>
+            <option value="other">Lainnya</option>
+          </select>
+        </div>
+        <div style="margin-bottom:16px">
+          <label for="message" style="display:block;margin-bottom:4px;font-weight:600">Pesan</label>
+          <textarea id="message" name="message" rows="4" required style="width:100%;padding:10px;border:1px solid rgba(15,118,110,0.2);border-radius:8px;font-size:14px;resize:vertical"></textarea>
+        </div>
+        <button type="submit" style="padding:12px 24px;border:none;border-radius:8px;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:white;font-weight:600;cursor:pointer">Kirim Pesan</button>
+      </form>
+
+      <div id="formMessage" style="margin-top:16px;padding:12px;border-radius:8px;display:none"></div>
+    </section>
+
+    <footer>
+      <div>Website ini dibuat untuk tujuan edukasi. Kamu bisa mengunduh atau mengedit file ini untuk praktek.</div>
+      <div style="margin-top:8px;font-size:13px;color:var(--muted)">© EnergiTerbarukan · 2025</div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
